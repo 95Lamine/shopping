@@ -1,0 +1,224 @@
+
+---Downloaded files---
+The import files for: Multi Category Store 1 were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/wp/wordpress/shoppingdz
+Data file = C:\xampp\htdocs\wp\wordpress/wp-content/themes/sw_revo_theme_v2.4.0/revo/lib/import/demo-1/data.xml
+Widget file = C:\xampp\htdocs\wp\wordpress/wp-content/themes/sw_revo_theme_v2.4.0/revo/lib/import/demo-1/widgets.json
+Customizer file = not defined!
+Options files:
+revo_theme -> C:\xampp\htdocs\wp\wordpress/wp-content/themes/sw_revo_theme_v2.4.0/revo/lib/import/demo-1/theme_options.txt 
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+orphaned_widgets_1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+SW Top Widget - No Title - Imported to Inactive
+Navigation Menu - No Title - Imported to Inactive
+
+orphaned_widgets_2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+widget_sp_image - No Title - Site does not support widget
+
+orphaned_widgets_3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+widget_sp_image - No Title - Site does not support widget
+
+Sidebar Left Blog : 
+
+Categories - No Title - Imported
+Text - No Title - Imported
+Recent Posts - Recent Post - Imported
+widget_sp_image - No Title - Site does not support widget
+
+Sidebar Right Blog : 
+
+Categories - No Title - Imported
+Text - No Title - Imported
+Recent Posts - Recent Post - Imported
+widget_sp_image - No Title - Site does not support widget
+
+Top Header : 
+
+WooCommerce Currency Converter - No Title - Imported
+Text - No Title - Imported
+Navigation Menu - My Account - Imported
+SW Top Widget - No Title - Imported
+Text - No Title - Imported
+Text - No Title - Imported
+Text - No Title - Imported
+
+Top Header3 : 
+
+Navigation Menu - My account - Imported
+SW Top Widget - No Title - Imported
+Text - No Title - Imported
+Text - No Title - Imported
+
+Top Header8 : 
+
+Navigation Menu - My account - Imported
+SW Top Widget - No Title - Imported
+WooCommerce Currency Converter - No Title - Imported
+Text - No Title - Imported
+Text - No Title - Imported
+
+Top Header9 : 
+
+Text - No Title - Imported
+
+Top Header10 : 
+
+SW Top Widget - No Title - Imported
+Navigation Menu - My Account - Imported
+Text - No Title - Imported
+WooCommerce Currency Converter - No Title - Imported
+Text - No Title - Imported
+
+Contact Header : 
+
+Text - No Title - Imported
+SW Top Widget - No Title - Imported
+
+Mid Header : 
+
+Navigation Menu - No Title - Imported
+SW Top Widget - No Title - Imported
+
+Bottom Header : 
+
+SW Top Widget - No Title - Imported
+Navigation Menu - No Title - Imported
+
+Header Right : 
+
+SW Top Widget - No Title - Imported
+Navigation Menu - No Title - Imported
+
+Header Right Home4 : 
+
+SW Top Widget - No Title - Imported
+Navigation Menu - My Account - Imported
+SW Top Widget - No Title - Imported
+SW Ajax WooCommerce Search - No Title - Imported
+
+Header Right Home6 : 
+
+SW Top Widget - No Title - Imported
+Text - No Title - Imported
+
+Header Right Home9 : 
+
+SW Top Widget - No Title - Imported
+SW Ajax WooCommerce Search - Ajax Search - Imported
+Navigation Menu - My Account - Imported
+
+Header Left : 
+
+Text - No Title - Imported
+WooCommerce Currency Converter - No Title - Imported
+
+Sidebar Left Product : 
+
+WooCommerce product categories - Categories - Imported
+Filter Products by Attribute - Color - Imported
+Filter Products by Attribute - Size - Imported
+Filter Products by Price - price - Imported
+Text - No Title - Imported
+widget_sp_image - No Title - Site does not support widget
+
+Sidebar Right Product : 
+
+WooCommerce product categories - Categories - Imported
+Filter Products by Attribute - Color - Imported
+Filter Products by Attribute - Size - Imported
+Filter Products by Price - price - Imported
+Text - No Title - Imported
+widget_sp_image - No Title - Site does not support widget
+
+Banner Mobile : 
+
+widget_sp_image - No Title - Site does not support widget
+
+Sidebar Left Detail Product : 
+
+WooCommerce product categories - Categories - Imported
+Text - No Title - Imported
+widget_sp_image - No Title - Site does not support widget
+
+Sidebar Right Detail Product : 
+
+WooCommerce product categories - Categories - Imported
+Text - No Title - Imported
+widget_sp_image - No Title - Site does not support widget
+
+Sidebar Bottom Detail Product : 
+
+Sw Woocommerce Related &amp; Upsell Slider widget - No Title - Imported
+
+Bottom Detail Product Mobile : 
+
+Sw Woocommerce Related &amp; Upsell Slider widget - No Title - Imported
+
+Filter Mobile : 
+
+Filter Products by Attribute - Color - Imported
+Filter Products by Attribute - Size - Imported
+Filter Products by Price - Price - Imported
+
+Footer Copyright : 
+
+widget_sp_image - No Title - Site does not support widget
+Navigation Menu - No Title - Imported
+
+Widget Search : 
+
+SW Ajax WooCommerce Search - No Title - Imported
+
+
+
+---pt-ocdi/after_import---
+array(10) {
+  ["import_file_name"]=>
+  string(22) "Multi Category Store 1"
+  ["page_title"]=>
+  string(4) "Home"
+  ["local_import_file"]=>
+  string(99) "C:\xampp\htdocs\wp\wordpress/wp-content/themes/sw_revo_theme_v2.4.0/revo/lib/import/demo-1/data.xml"
+  ["local_import_widget_file"]=>
+  string(103) "C:\xampp\htdocs\wp\wordpress/wp-content/themes/sw_revo_theme_v2.4.0/revo/lib/import/demo-1/widgets.json"
+  ["local_import_revslider"]=>
+  array(1) {
+    ["slide1"]=>
+    string(105) "C:\xampp\htdocs\wp\wordpress/wp-content/themes/sw_revo_theme_v2.4.0/revo/lib/import/demo-1/slideshow1.zip"
+  }
+  ["local_import_options"]=>
+  array(1) {
+    [0]=>
+    array(2) {
+      ["file_path"]=>
+      string(108) "C:\xampp\htdocs\wp\wordpress/wp-content/themes/sw_revo_theme_v2.4.0/revo/lib/import/demo-1/theme_options.txt"
+      ["option_name"]=>
+      string(10) "revo_theme"
+    }
+  }
+  ["menu_locate"]=>
+  array(2) {
+    ["primary_menu"]=>
+    string(12) "Primary Menu"
+    ["vertical_menu"]=>
+    string(13) "Verticle Menu"
+  }
+  ["import_preview_image_url"]=>
+  string(108) "http://localhost/wp/wordpress/shoppingdz/wp-content/themes/sw_revo_theme_v2.4.0/revo/lib/import/demo-1/1.jpg"
+  ["import_notice"]=>
+  string(115) "After you import this demo, you will have to setup the slider separately. This import maybe finish on 10-15 minutes"
+  ["preview_url"]=>
+  string(41) "http://demo.wpthemego.com/themes/sw_revo/"
+}
+

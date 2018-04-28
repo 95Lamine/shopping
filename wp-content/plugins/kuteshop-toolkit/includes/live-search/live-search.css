@@ -1,0 +1,80 @@
+.kuteshop-live-search-form .results-search{
+    position: relative;
+}
+
+.kuteshop-live-search-form .products-search,
+.kuteshop-live-search-form  .not-results-search{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 21px;
+    box-shadow: 0 2px 10px 0 #dfdfdf;
+    border-color: #dfdfdf;
+    z-index: 100;
+}
+.kuteshop-live-search-form .suggestion-search{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 10px  20px;
+    color: #ccc;
+    line-height: 20px;
+}
+
+.kuteshop-live-search-form .product-search-item{
+    overflow: hidden;
+    margin-top: 15px;
+}
+.kuteshop-live-search-form .product-search-item .product-image{
+    width: 75px;
+    float: left;
+}
+.kuteshop-live-search-form .product-search-item .product-image img{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.kuteshop-live-search-form .product-search-item .product-title-price{
+    overflow: hidden;
+    padding-left: 10px;
+}
+.kuteshop-live-search-form .view-all{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.kuteshop-live-search-form .txt-livesearch{
+    width: 100%;
+    padding: 10px  20px;
+    position: relative;
+    z-index: 11;
+    background-color: transparent;
+    border: 1px solid #eee;
+    box-shadow: none;
+}
+.kuteshop-live-search-form .txt-livesearch:focus,
+.kuteshop-live-search-form .txt-livesearch:active{
+    background-color: transparent;
+}
+.kuteshop-live-search-form .keyword-current{
+    background-color: red;
+    color: #fff;
+    display: inline-block;
+    padding: 0 3px;
+    line-height: normal;
+}
+.kuteshop-live-search-form.loading .results-search::before {
+    font-family: 'FontAwesome';
+    content: "\f1ce";
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    line-height: 46px;
+    color: #ccc;
+}

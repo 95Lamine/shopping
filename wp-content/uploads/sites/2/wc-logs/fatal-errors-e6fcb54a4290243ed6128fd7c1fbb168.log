@@ -1,0 +1,175 @@
+2018-04-27T10:34:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-27T10:36:04+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-27T12:39:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-27T17:45:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-27T17:48:48+00:00 CRITICAL Uncaught Error: Call to a member function get_options() on null in C:\xampp\htdocs\wp\wordpress\wp-content\themes\woodmart\woodmart\inc\builder\functions.php:108
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-content\themes\woodmart\woodmart\inc\builder\functions.php(124): whb_get_settings()
+#1 C:\xampp\htdocs\wp\wordpress\wp-content\themes\woodmart\woodmart\inc\functions.php(637): whb_get_dropdowns_color()
+#2 C:\xampp\htdocs\wp\wordpress\wp-content\themes\woodmart\woodmart\inc\shortcodes\mega-menu.php(39): WOODMART_Mega_Menu_Walker->__construct()
+#3 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(319): woodmart_shortcode_mega_menu(Array, '', 'woodmart_mega_m...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(woodma...', 'do_shortcode_ta...', '[woodmart_mega_...')
+#6 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\helpers\helpers.php(232): do_shortcode('[woodmart_mega_...')
+#7 C:\x
+
+2018-04-27T22:31:48+00:00 CRITICAL Uncaught Error: Call to undefined function revo_quickview() in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\sw_woocommerce\includes\themes\sw-countdown-slider\tab-countdownt2.php:162
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\sw_woocommerce\includes\sw-widgets\sw-slider-countdown-widget.php(321): include()
+#1 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(319): sw_woo_slider_countdown_widget->WS_Shortcode_Countdown(Array, '', 'woo_slide_count...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(respos...', 'do_shortcode_ta...', '[woocat_slide c...')
+#4 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\helpers\helpers.php(232): do_shortcode('[woocat_slide c...')
+#5 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column.php(93): wpb_js_remove_wpautop('[woocat_slide c...')
+#6 C:\xampp\htdocs\wp\wordpress\wp-content\plugin
+
+2018-04-27T22:32:09+00:00 CRITICAL Uncaught Error: Call to undefined function revo_quickview() in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\sw_woocommerce\includes\themes\sw-woo-tab-slider\theme1.php:145
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\sw_woocommerce\includes\sw-widgets\sw-woo-tab-slider-widget.php(305): include()
+#1 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(319): sw_woo_tab_slider_widget->SC_WooTab(Array, '', 'woo_tab_slider')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(woo_ta...', 'do_shortcode_ta...', '[woo_tab_slider...')
+#4 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\helpers\helpers.php(232): do_shortcode('[woo_tab_slider...')
+#5 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column.php(93): wpb_js_remove_wpautop('[woo_tab_slider...')
+#6 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\classes\shortc
+
+2018-04-27T22:32:28+00:00 CRITICAL Uncaught Error: Call to undefined function revo_quickview() in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\sw_woocommerce\includes\themes\sw-slider\featured2.php:88
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\sw_woocommerce\includes\sw-widgets\sw-slider-widget.php(365): include()
+#1 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(319): sw_woo_slider_widget->WS_Shortcode(Array, '', 'woo_slide')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(woo_sl...', 'do_shortcode_ta...', '[woo_slide titl...')
+#4 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\helpers\helpers.php(232): do_shortcode('[woo_slide titl...')
+#5 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column.php(93): wpb_js_remove_wpautop('[woo_slide titl...')
+#6 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\classes\shortcodes\shortcodes.php(
+
+2018-04-27T22:32:42+00:00 CRITICAL Uncaught Error: Call to undefined function revo_quickview() in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\sw_woocommerce\includes\themes\sw-slider\theme-home9.php:69
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\sw_woocommerce\includes\sw-widgets\sw-slider-widget.php(365): include()
+#1 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(319): sw_woo_slider_widget->WS_Shortcode(Array, '', 'woo_slide')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(woo_sl...', 'do_shortcode_ta...', '[woo_slide titl...')
+#4 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\helpers\helpers.php(232): do_shortcode('[woo_slide titl...')
+#5 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column.php(93): wpb_js_remove_wpautop('[woo_slide titl...')
+#6 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\classes\shortcodes\shortcodes.ph
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 60 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:15:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:17:32+00:00 CRITICAL Maximum execution time of 60 seconds exceeded
+
+2018-04-28T03:17:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:17:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:17:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:17:59+00:00 CRITICAL Out of memory (allocated 16777216) (tried to allocate 14096008 bytes)
+
+2018-04-28T03:18:02+00:00 CRITICAL Out of memory (allocated 10485760) (tried to allocate 14096008 bytes)
+
+2018-04-28T03:18:03+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 14096008 bytes)
+
+2018-04-28T03:18:04+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 14096008 bytes)
+
+2018-04-28T03:18:06+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 14096008 bytes)
+
+2018-04-28T03:18:08+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 69632 bytes)
+
+2018-04-28T03:54:12+00:00 CRITICAL Maximum execution time of 60 seconds exceeded
+
+2018-04-28T03:54:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:54:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:54:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:54:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:54:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:54:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:54:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:54:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T03:54:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 60 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:27:33+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-28T05:36:04+00:00 CRITICAL Maximum execution time of 60 seconds exceeded
+
+2018-04-28T05:44:07+00:00 CRITICAL Maximum execution time of 60 seconds exceeded
+
+2018-04-28T06:59:57+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\kuteshop-toolkit\includes\shortcodes\products.php:172
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(319): Kuteshop_Shortcode_Products->output_html(Array, '', 'kuteshop_produc...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(kutesh...', 'do_shortcode_ta...', '[kuteshop_produ...')
+#3 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\helpers\helpers.php(232): do_shortcode('[kuteshop_produ...')
+#4 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column.php(93): wpb_js_remove_wpautop('[kuteshop_produ...')
+#5 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\classes\shortcodes\shortcodes.php(473): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include
+
+2018-04-28T07:00:48+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\kuteshop-toolkit\includes\shortcodes\products.php:172
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(319): Kuteshop_Shortcode_Products->output_html(Array, '', 'kuteshop_produc...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\wp\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(kutesh...', 'do_shortcode_ta...', '[kuteshop_produ...')
+#3 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\helpers\helpers.php(232): do_shortcode('[kuteshop_produ...')
+#4 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column.php(93): wpb_js_remove_wpautop('[kuteshop_produ...')
+#5 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include\classes\shortcodes\shortcodes.php(473): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\js_composer\include
+
